@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_TB-8504X-userdebug
-add_lunch_combo omni_TB-8504X-eng
+add_lunch_combo omni_TB8504X-userdebug
+add_lunch_combo omni_TB8504X-eng

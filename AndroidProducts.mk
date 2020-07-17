@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_TB-8504X.mk
+	$(LOCAL_DIR)/omni_TB8504X.mk

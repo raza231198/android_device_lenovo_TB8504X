@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/lenovo/TB-8504X
+LOCAL_PATH := device/lenovo/TB8504X
 
 # Architecture
 TARGET_ARCH := arm64

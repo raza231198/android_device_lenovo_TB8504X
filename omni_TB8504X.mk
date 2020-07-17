@@ -23,8 +23,16 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TB-8504X
-PRODUCT_NAME := omni_TB-8504X
+PRODUCT_DEVICE := TB8504X
+PRODUCT_NAME := omni_TB8504X
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-8504X
 PRODUCT_MANUFACTURER := LENOVO
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=TB-8504X \
+    PRODUCT_DEVICE=TB-8504X \
+    TARGET_DEVICE=TB-8504X
+
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.build.product
